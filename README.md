@@ -5,7 +5,7 @@
 <p align="center">
  <a href="#Funcionalidades">Funcionalidades</a> •
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
- <a href="#Rodando a API">Rodando a API</a> • 
+ <a href="#Rodando">Rodando a API</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#Autor">Autor</a>
 </p>
