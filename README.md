@@ -1,14 +1,13 @@
-# API para verificação de senha
+## API para verificação de senha
 
-## Esta API permite você fazer verificações na senha a partir das regras que escolher e colocar em sua requisição. 
+### Esta API permite você fazer verificações na senha a partir das regras que escolher e colocar em sua requisição. 
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#Funcionalidades">Funcionalidades</a> •
+ <a href="#Pré-requisitos">Pré-requisitos</a> • 
+ <a href="#Rodando a API">Rodando a API</a> • 
+ <a href="#Tecnologias">Tecnologias</a> • 
+ <a href="#Autor">Autor</a>
 </p>
 
 <h4 align="center"> 
@@ -37,19 +36,19 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### Rodando a API
 
-# Clone este repositório caso for utilizar o GitHub
+#### Clone este repositório caso for utilizar o GitHub
 $ git clone <https://github.com/Guisanita/API-VerificacaoSenhaStudioSol>
 
-# Acesse a pasta do projeto no terminal/cmd
+#### Acesse a pasta do projeto no terminal/cmd
 $ cd API-VerificacaoSenhaStudioSol
 
-# Instale as dependências
+#### Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+#### Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# O servidor inciará na porta:8080- acesse <http://localhost:8080> 
+#### O servidor inciará na porta:8080- acesse <http://localhost:8080> 
 
 ### Tecnologias
 
@@ -62,6 +61,7 @@ $ npm run dev
 | [Guilherme Sanitá](https://github.com/Guisanita) |
 
 <a href="https://www.linkedin.com/in/guilherme-sanit%C3%A1-0841bb128/" target='_blank'> ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+
 
 
 
