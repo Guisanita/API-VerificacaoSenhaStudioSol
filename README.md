@@ -1,4 +1,4 @@
-#API para verificação de senha
+# API para verificação de senha
 
 ## Esta API permite você fazer verificações na senha a partir das regras que escolher e colocar em sua requisição. 
 
