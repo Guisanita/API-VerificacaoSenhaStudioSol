@@ -36,21 +36,34 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 A API é construída com o **Npm** (que é distribuído pelo [Node.js](https://nodejs.org/en/), portanto, ao instalar o Node.js, como pedido anteriormente em <a href="#Pré-requisitos">Pré-requisitos</a>, você já terá essa funcionalidade).
 #### Clone este repositório caso for utilizar o GitHub
 
-'''
-$ git clone <https://github.com/Guisanita/API-VerificacaoSenhaStudioSol>
-'''
+```
+git clone <https://github.com/Guisanita/API-VerificacaoSenhaStudioSol>
+```
 
 #### Acesse a pasta do projeto no terminal/cmd
 
-'''$ cd API-VerificacaoSenhaStudioSol'''
+```
+cd API-VerificacaoSenhaStudioSol
+```
 
 #### Instale as dependências
-'''$ npm install'''
+
+```
+npm install
+```
 
 #### Execute a aplicação em modo de desenvolvimento
-'''$ npm run dev'''
 
-#### O servidor inciará na porta:8080- acesse <http://localhost:8080> 
+```
+npm run dev
+```
+
+#### O servidor inciará na porta:8080- acesse:
+
+```
+<http://localhost:8080> 
+```
+
 ### Tecnologias
 
 [Node.js](https://nodejs.org/en/)
@@ -63,7 +76,7 @@ Para fazer os testes você pode utilizar o insomnia:
 
 A requisição HTTP deve ser feita no body e no formato Json, na única rota da API que é **/verify** Utilizando o seguinte formato:
 
-'''
+```
 {
 "password": "TesteSenhaForte!123&",
 "rules": [
@@ -73,18 +86,24 @@ A requisição HTTP deve ser feita no body e no formato Json, na única rota da 
 {"rule": "minDigit","value": 4}
 ]
 }
-
-''' 
+```
 
 Onde em "password" você insere a senha que quer testar e em "rules" você coloca um array de objetos com as regras que pretende aplicar e qual a quantidade mínima de caracteres que deve seguir essa regra. 
 
-Obs. Escreva o nome da regra exatamente como aqui no documento:
-minSize
-minUppercase
-minLowercase
-minDigit
-minSpecialChars
-noRepeted
+**Obs.** Escreva o nome da regra exatamente como aqui no documento:
+
+"minSize"
+
+"minUppercase"
+
+"minLowercase"
+
+"minDigit"
+
+"minSpecialChars"
+
+"noRepeted"
+
 ### Autor
 
 |         ![](/assets/GuilhermeSanita.jpg)         |
