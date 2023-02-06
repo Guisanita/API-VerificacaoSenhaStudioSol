@@ -2,9 +2,9 @@
   "name": "validacao_senhas_studiosol",
   "version": "1.0.0",
   "description": "API desenvolvida para validação de senhas.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/server.js"
   },
   "author": "Guilherme Sanitá",
   "license": "ISC",
