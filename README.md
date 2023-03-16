@@ -1,6 +1,6 @@
 ## API para verificação de senha
 
-### Esta API REST permite você fazer verificações na senha a partir das regras que escolher e colocar em sua requisição HTTP. 
+### Esta 'API' 'REST' permite você fazer verificações na senha a partir das regras que escolher e colocar em sua requisição HTTP. 
 
 <p align="center">
  <a href="#Funcionalidades">Funcionalidades</a> •
