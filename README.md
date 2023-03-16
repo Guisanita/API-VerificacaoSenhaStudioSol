@@ -106,7 +106,7 @@ Onde em "password" você insere a senha que quer testar e em "rules" você coloc
 
 ### Autor
 
-| <img src='/assets/GuilhermeSanita.jpg' width='150px'/>         |
+| <img src='/assets/GuilhermeSanita.jpg' width='180px'/> | 
 | :----------------------------------------------: |
 | [Guilherme Sanitá](https://github.com/Guisanita) |
 
