@@ -5,5 +5,4 @@ const routes = express();
 
 routes.post("/verify", verifyPassword);
 
-
 module.exports = routes;
