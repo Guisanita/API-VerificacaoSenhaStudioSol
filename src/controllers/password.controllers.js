@@ -2,7 +2,7 @@ const { verifyMinSize, verifyMinUppercase, verifyMinLowercase, verifyMinDigit, v
 
 const verifyPassword = async (req, res) => {
     const { password, rules } = req.body;
-
+    console.log('teste');
     try {
         let verify = true;
         const noMatch = [];
