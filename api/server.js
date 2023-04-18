@@ -1,7 +1,5 @@
-const express = require("express");
-const routes = require("./routes/password.routes");
-
-const app = express();
+const app = require('./index');
+const routes = require("../src/routes/password.routes");
 
 app.use(express.json());
 app.use(routes);
