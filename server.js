@@ -1,4 +1,4 @@
-const app = require('express');
+const app = require('express')();
 const routes = require("./src/routes/password.routes");
 
 app.use(express.json());
