@@ -15,3 +15,5 @@ app.get('/', (req, res) => {
 app.use(routes);
 
 app.listen(process.env.PORT || 3000);
+
+module.exports.handler = serverless(app);
