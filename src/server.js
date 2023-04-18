@@ -5,6 +5,10 @@ const routes = require("./routes/password.routes");
 
 const app = express();
 
+app.get('/', (req, res) => {
+    res.send("teste")
+})
+
 app.use(express.json());
 app.use(cors());
 app.use(routes);
